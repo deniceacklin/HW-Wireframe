@@ -32,7 +32,7 @@ header {
 #section {
     background: #ebebeb;
     text-align: center;
-    width: 495px;
+    width: 490px;
     height: 350px;;
     padding: 20px;
     border: 10px;
@@ -54,27 +54,43 @@ header {
     color: #777;
     background: #ebebeb;
     text-align: center;
-    width: 495px;
+    width: 480px;
     height: 50px;
+    padding: 5px;
+    border: 10px;
+    margin: 10px;
     }
 
 #p2 {
     color: #777;
     background: #ebebeb;
     text-align: center;
-    width: 495px;
+    width: 480px;
     height: 50px;
+    padding: 5px;
+    border: 10px;
+    margin: 10px;
     }
 
 #aside {
     background: #ebebeb;
     text-align: center;
-    width: 495px;
+    float: right;
+    width: 420px;
     height: 350px;;
     padding: 20px;
     border: 10px;
     margin: 20px;
+    position: relative;
+    top: -805px;
+    left: 30px;
     }
+
+.clearfix ::after {
+    content: "aside";
+    display: block;
+    clear: both;
+}
 
 #footer {
     background: #ebebeb;
